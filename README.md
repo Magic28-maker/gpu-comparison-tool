@@ -7,7 +7,9 @@ A modern web application for comparing graphics card specifications and performa
 
 ## 🚀 Overview
 
-GPU Compare allows users to easily compare graphics cards from major manufacturers including NVIDIA, AMD, and Intel. The application provides detailed specifications and benchmark scores to help users make informed decisions when purchasing or upgrading their graphics hardware.
+GPU Comparison Tool allows users to easily compare graphics cards from major manufacturers including NVIDIA, AMD, and Intel. The application provides detailed specifications and benchmark scores to help users make informed decisions when purchasing or upgrading their graphics hardware.
+
+For any questions about this project, contact me at https://gpuprices.ai
 
 ## ✨ Features
 
@@ -82,7 +84,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgements
 
-- Data provided by [GPUPRICES.AI](https://gpuprices.ai)
+- Application files and Data provided by [GPUPRICES.AI](https://gpuprices.ai)
 - Icons by [Lucide](https://lucide.dev/)
 - UI components by [shadcn/ui](https://ui.shadcn.com/)
 
