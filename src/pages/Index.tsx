@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { gpus, GPU } from '@/data/gpuData';
 import HeroSection from '@/components/HeroSection';
@@ -174,7 +175,7 @@ const Index = () => {
             </div>
             
             <p className="text-sm text-muted-foreground">
-              Shared for free use by GPUPRICES.AI team
+              Shared for free use by <a href="https://gpuprices.ai" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GPUPRICES.AI</a> team
             </p>
           </div>
         </div>
