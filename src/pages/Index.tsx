@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { gpus, GPU } from '@/data/gpuData';
 import HeroSection from '@/components/HeroSection';
@@ -15,7 +14,6 @@ const Index = () => {
   const gpusRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
-    // Filter GPUs based on search term
     const filtered = gpus.filter(gpu => 
       gpu.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       gpu.manufacturer.toLowerCase().includes(searchTerm.toLowerCase())
@@ -28,7 +26,6 @@ const Index = () => {
       setLeftGpu(gpu);
     } else if (!rightGpu && leftGpu.id !== gpu.id) {
       setRightGpu(gpu);
-      // Scroll to comparison section after a short delay
       setTimeout(() => {
         comparisonRef.current?.scrollIntoView({ behavior: 'smooth' });
       }, 500);
@@ -177,7 +174,7 @@ const Index = () => {
             </div>
             
             <p className="text-sm text-muted-foreground">
-              Created with attention to detail and pixel-perfect precision.
+              Shared for free use by GPUPRICES.AI team
             </p>
           </div>
         </div>
