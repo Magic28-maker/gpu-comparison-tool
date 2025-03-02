@@ -1,69 +1,91 @@
-# Welcome to your Lovable project
 
-## Project info
+# GPU Compare
 
-**URL**: https://lovable.dev/projects/d2c1a45b-33e4-4ae3-92e8-1997877a315a
+![GPU Compare Banner](https://www.gpuprices.ai/assets/banner.jpg)
 
-## How can I edit this code?
+A modern web application for comparing graphics card specifications and performance metrics.
 
-There are several ways of editing your application.
+## 🚀 Overview
 
-**Use Lovable**
+GPU Compare allows users to easily compare graphics cards from major manufacturers including NVIDIA, AMD, and Intel. The application provides detailed specifications and benchmark scores to help users make informed decisions when purchasing or upgrading their graphics hardware.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d2c1a45b-33e4-4ae3-92e8-1997877a315a) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Comprehensive GPU Database**: Browse through an extensive collection of graphics cards from NVIDIA, AMD, and Intel
+- **Side-by-Side Comparison**: Select any two GPUs to compare their specifications in detail
+- **Visual Metrics**: Visualize the performance differences with intuitive charts
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Search Functionality**: Quickly find specific GPU models with the search feature
 
-**Use your preferred IDE**
+## 🖥️ Screenshots
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+![Comparison View](https://www.gpuprices.ai/assets/comparison-view.jpg)
+![GPU Cards](https://www.gpuprices.ai/assets/gpu-cards.jpg)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Recharts](https://recharts.org/)
+- [Vite](https://vitejs.dev/)
+- [shadcn/ui](https://ui.shadcn.com/)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Node.js (v16+)
+- npm or yarn
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Installation
 
-**Edit a file directly in GitHub**
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/gpu-compare.git
+   cd gpu-compare
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-**Use GitHub Codespaces**
+3. Start the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+4. Open your browser and navigate to `http://localhost:5173`
 
-## What technologies are used for this project?
+## 📚 Data Source
 
-This project is built with .
+The GPU data is sourced from manufacturer specifications and normalized benchmark scores. The data is organized by manufacturer in separate files for maintainability.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contributing
 
-## How can I deploy this project?
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Simply open [Lovable](https://lovable.dev/projects/d2c1a45b-33e4-4ae3-92e8-1997877a315a) and click on Share -> Publish.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## I want to use a custom domain - is that possible?
+## 📝 License
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+
+- Data provided by [GPUPRICES.AI](https://gpuprices.ai)
+- Icons by [Lucide](https://lucide.dev/)
+- UI components by [shadcn/ui](https://ui.shadcn.com/)
+
+---
+
+Made with ❤️ for PC builders and gaming enthusiasts
