@@ -1,3 +1,4 @@
+
 export interface GPU {
   id: string;
   name: string;
@@ -699,6 +700,5 @@ export const gpus: GPU[] = [
     architecture: "Pascal",
     processNode: 16,
     imageUrl: "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/geforce-gtx-1080/geforce-gtx-1080-3qtr-zoom-metal-compressed.jpg"
-  },
-  {
-    id
+  }
+];
